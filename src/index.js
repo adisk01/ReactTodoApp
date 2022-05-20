@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
-ReactDOM.render(<App />,document.getElementById('root'));
+import Mycomp from './Mycomp';
+import ClassComp from './ClassComp'
+ReactDOM.render(
+            <div>
+              <ClassComp />
+              <ClassComp />
+              <ClassComp />
+              <ClassComp />
+              <ClassComp />
+            </div>,
+            document.getElementById('root'));
 
